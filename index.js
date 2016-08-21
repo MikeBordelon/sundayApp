@@ -1,0 +1,1 @@
+ReactDOM.render(<App data={data} genres={['Action', 'Romantic']}/>, document.getElementById('app'));

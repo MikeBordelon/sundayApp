@@ -1,0 +1,4 @@
+'use strict';
+
+ReactDOM.render(React.createElement(App, { data: data, genres: ['Action', 'Romantic'] }), document.getElementById('app'));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsU0FBUyxNQUFULENBQWdCLG9CQUFDLEdBQUQsSUFBSyxNQUFNLElBQVgsRUFBaUIsUUFBUSxDQUFDLFFBQUQsRUFBVyxVQUFYLENBQXpCLEdBQWhCLEVBQW9FLFNBQVMsY0FBVCxDQUF3QixLQUF4QixDQUFwRSIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlJlYWN0RE9NLnJlbmRlcig8QXBwIGRhdGE9e2RhdGF9IGdlbnJlcz17WydBY3Rpb24nLCAnUm9tYW50aWMnXX0vPiwgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcCcpKTsiXX0=
