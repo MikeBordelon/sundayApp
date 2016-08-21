@@ -1,6 +1,6 @@
-var SearchView = (props) => (
-  <select onChange={props.changeFunc}>
-    {props.genres.map(genre =>
+var SearchView = ({changeFunc, genres}) => (
+  <select onChange={changeFunc}>
+    {genres.map(genre =>
       <option value={genre}>{genre}</option>
     )}
     }
