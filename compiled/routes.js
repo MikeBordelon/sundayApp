@@ -1,0 +1,9 @@
+'use strict';
+
+var bookRoutes = require('./bookroutes');
+
+// when the client navigates to /movies
+module.exports = function routes(app) {
+  app.use('/books', bookRoutes);
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3JvdXRlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLElBQUksYUFBYSxRQUFRLGNBQVIsQ0FBakI7O0FBR0E7QUFDQSxPQUFPLE9BQVAsR0FBaUIsU0FBUyxNQUFULENBQWdCLEdBQWhCLEVBQXFCO0FBQ3BDLE1BQUksR0FBSixDQUFRLFFBQVIsRUFBa0IsVUFBbEI7QUFDRCxDQUZEIiwiZmlsZSI6InJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBib29rUm91dGVzID0gcmVxdWlyZSgnLi9ib29rcm91dGVzJyk7XG5cblxuLy8gd2hlbiB0aGUgY2xpZW50IG5hdmlnYXRlcyB0byAvbW92aWVzXG5tb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uIHJvdXRlcyhhcHApIHtcbiAgYXBwLnVzZSgnL2Jvb2tzJywgYm9va1JvdXRlcyk7XG59OyJdfQ==

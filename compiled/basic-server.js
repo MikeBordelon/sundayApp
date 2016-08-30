@@ -1,0 +1,11 @@
+'use strict';
+
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname));
+
+app.listen(8000, function () {
+  console.log('listening on port:');
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2Jhc2ljLXNlcnZlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLElBQUksVUFBVSxRQUFRLFNBQVIsQ0FBZDtBQUNBLElBQUksTUFBTSxTQUFWOztBQUVBLElBQUksR0FBSixDQUFRLFFBQVEsTUFBUixDQUFlLFNBQWYsQ0FBUjs7QUFFQSxJQUFJLE1BQUosQ0FBVyxJQUFYLEVBQWlCLFlBQVc7QUFDMUIsVUFBUSxHQUFSLENBQVksb0JBQVo7QUFDRCxDQUZEIiwiZmlsZSI6ImJhc2ljLXNlcnZlci5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpO1xudmFyIGFwcCA9IGV4cHJlc3MoKTtcblxuYXBwLnVzZShleHByZXNzLnN0YXRpYyhfX2Rpcm5hbWUgKSk7XG5cbmFwcC5saXN0ZW4oODAwMCwgZnVuY3Rpb24oKSB7XG4gIGNvbnNvbGUubG9nKCdsaXN0ZW5pbmcgb24gcG9ydDonKTtcbn0pO1xuXG4iXX0=
