@@ -1,8 +1,14 @@
-.class {
-    width: 30px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+.h1 {
+    /*width: 30px;*/
+
+    /*padding: 25px;*/
+    margin: 20px 350px;
+}
+
+.savedBooks {
+  border-style: solid;
+  width: 120px;
+  margin: 0px 500px 10px;
 }
 
 #resultsviewentry{
@@ -12,5 +18,5 @@
 }
 
 .search-bar {
-  margin: 0;
+  margin: 0px 480px 50px;
 }

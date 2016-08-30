@@ -1,9 +1,9 @@
-'use strict';
+// var bookRoutes = require('./bookroutes');
 
-var bookRoutes = require('./bookroutes');
 
-// when the client navigates to /movies
-module.exports = function routes(app) {
-  app.use('/books', bookRoutes);
-};
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3JvdXRlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLElBQUksYUFBYSxRQUFRLGNBQVIsQ0FBakI7O0FBR0E7QUFDQSxPQUFPLE9BQVAsR0FBaUIsU0FBUyxNQUFULENBQWdCLEdBQWhCLEVBQXFCO0FBQ3BDLE1BQUksR0FBSixDQUFRLFFBQVIsRUFBa0IsVUFBbEI7QUFDRCxDQUZEIiwiZmlsZSI6InJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBib29rUm91dGVzID0gcmVxdWlyZSgnLi9ib29rcm91dGVzJyk7XG5cblxuLy8gd2hlbiB0aGUgY2xpZW50IG5hdmlnYXRlcyB0byAvbW92aWVzXG5tb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uIHJvdXRlcyhhcHApIHtcbiAgYXBwLnVzZSgnL2Jvb2tzJywgYm9va1JvdXRlcyk7XG59OyJdfQ==
+// // when the client navigates to /books
+// module.exports = function routes(app) {
+//   app.use('/books', bookRoutes);
+// };
+"use strict";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3JvdXRlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0FBR0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gdmFyIGJvb2tSb3V0ZXMgPSByZXF1aXJlKCcuL2Jvb2tyb3V0ZXMnKTtcblxuXG4vLyAvLyB3aGVuIHRoZSBjbGllbnQgbmF2aWdhdGVzIHRvIC9ib29rc1xuLy8gbW9kdWxlLmV4cG9ydHMgPSBmdW5jdGlvbiByb3V0ZXMoYXBwKSB7XG4vLyAgIGFwcC51c2UoJy9ib29rcycsIGJvb2tSb3V0ZXMpO1xuLy8gfTsiXX0=

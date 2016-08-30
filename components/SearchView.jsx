@@ -3,7 +3,8 @@ class SearchView extends React.Component {
     super (props);
 
     this.state = {
-      value: ''
+      value: '',
+      isClicked: false
     };
   }
 
@@ -14,10 +15,36 @@ class SearchView extends React.Component {
     });
   }
 
+  getBooks () {
+    $.ajax({
+      url: '/books',
+      type: 'GET',
+      success: function(data) {
+        // render stuff
+        console.log(data);
+      },
+      error: function() {
+        console.log('error in get');
+      }
+    });
+  }
+
+  handleClick () {
+    // console.log('clicked');
+    this.setState({
+      isClicked: true
+    });
+
+    this.getBooks();
+  }
   render () {
     // console.log(this.state.value);
+
     return (
+      <div>
+        <div onClick={this.handleClick.bind(this)} className='savedBooks'>See Saved Books</div>
     <div>
+    </div>
        <input className='search-bar'
          type="text"
          placeholder='Search for a book!'

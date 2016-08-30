@@ -1,10 +1,11 @@
+// import radioButton from 'radioButton';
+
 class App extends React.Component {
   constructor (props) {
     super (props);
-    console.log(props.data);
+
     this.state = {
       bookResults: {items: []},
-
     };
   }
 
@@ -24,8 +25,8 @@ class App extends React.Component {
 
   render () {
     return (
-      <div>
-      <h1>Search Google Books!</h1>
+      <div >
+      <h1 className='h1'>Search Google Books!</h1>
         <SearchView handleSearch={this.getBooks.bind(this)}/>
         <ResultsView books={this.state.bookResults}/>
       </div>
