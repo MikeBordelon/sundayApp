@@ -41,7 +41,6 @@ app.get('/books', function(req, res) {
 });
 
 app.post('/books', function(req, res) {
-  console.log('something happened');
   // console.log(res.body);
   // console.log(req.body.title);
   var newBook = new Book({title: req.body.title, author: req.body.author, thumbnail: req.body.thumbnail });

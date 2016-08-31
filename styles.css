@@ -2,13 +2,13 @@
     /*width: 30px;*/
 
     /*padding: 25px;*/
-    margin: 20px 350px;
+    text-align: center
 }
 
 .savedBooks {
-  border-style: solid;
+  border-style: groove;
   width: 120px;
-  margin: 0px 500px 10px;
+  margin: 0px 480px 10px;
 }
 
 #resultsviewentry{
